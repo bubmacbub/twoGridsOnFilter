@@ -13,12 +13,16 @@ export class AppComponent implements OnInit {
   @ViewChild(DataBindingDirective, { static: false }) dataBinding: DataBindingDirective;
   title: string = "Two Kendo Grids Filtering Each Other"
   public gridData: any[] = employees;
-  public gridView: any[];
+  productDataStream: any[] = products;
+  // public gridView: any[];
+  employeesVM : any[];
+  productsVM: any[];
 
   public mySelection: string[] = [];
 
   public ngOnInit(): void {
-    this.gridView = this.gridData;
+    this.employeesVM = this.gridData;
+    this.productsVM = this.productDataStream;
   }
 
 
@@ -60,8 +64,31 @@ export class AppComponent implements OnInit {
     });
     console.log("Data result from process", processedDataResult)
 
-    this.gridView = processedDataResult.data;
+    this.employeesVM = processedDataResult.data;
     this.dataBinding.skip = 0;
+//END EMPLOYEES
+
+
+    let processedProducts = process(
+      this.productDataStream,
+       {
+        filter:{
+          logic: "or",
+        filters: [
+          {
+            field: 'Category.CategoryName',
+            operator: 'contains',
+            value: inputValue
+          },]
+        }
+       }
+    );
+       console.log("Data result on products after process", processedProducts);
+
+       this.productsVM = processedProducts.data;
+
+
+
   }
 
 

@@ -327,10 +327,10 @@
 <P>After toolbar time to get into it</P>
 
 <div>
-
+  <input placeholder="Search in all columns..." kendoTextBox (input)="onFilter($event.target.value)"/>
 
   <kendo-grid
-            [kendoGridBinding]="gridView"
+            [kendoGridBinding]="employeesVM"
             kendoGridSelectBy="id"
             [selectedKeys]="mySelection"
             [pageSize]="20"
@@ -344,11 +344,11 @@
         >
 
 
-            <ng-template kendoGridToolbarTemplate>
-                <input placeholder="Search in all columns..." kendoTextBox (input)="onFilter($event.target.value)"/>
-                <button kendoGridExcelCommand type="button" icon="file-excel" style="float:right;">Export to Excel</button>
-                <button kendoGridPDFCommand icon="file-pdf" style="float:right;">Export to PDF</button>
-            </ng-template>
+        <ng-template kendoGridToolbarTemplate>
+         
+          <button kendoGridExcelCommand type="button" icon="file-excel" style="float:right;">Export to Excel</button>
+          <button kendoGridPDFCommand icon="file-pdf" style="float:right;">Export to PDF</button>
+      </ng-template>
 
 
             <kendo-grid-checkbox-column
@@ -459,7 +459,7 @@
 
 
             <!--  <kendo-grid-pdf fileName="Employees.pdf" [repeatHeaders]="true"></kendo-grid-pdf> -->
-            <kendo-grid-excel fileName="Employees.xlsx"></kendo-grid-excel>
+            <!-- <kendo-grid-excel fileName="Employees.xlsx"></kendo-grid-excel> -->
 
 
         </kendo-grid>
@@ -469,6 +469,29 @@
 </div>
 
 <P>Other stuff</P>
+
+
+<div>
+  <kendo-grid [data]="productsVM" [height]="410">
+    <kendo-grid-column field="ProductID" title="ID" width="40">
+    </kendo-grid-column>
+    <kendo-grid-column field="ProductName" title="Name" width="250">
+    </kendo-grid-column>
+    <kendo-grid-column field="Category.CategoryName" title="Category">
+    </kendo-grid-column>
+    <kendo-grid-column field="UnitPrice" title="Price" width="80">
+    </kendo-grid-column>
+    <kendo-grid-column field="UnitsInStock" title="In stock" width="80">
+    </kendo-grid-column>
+    <kendo-grid-column field="Discontinued" title="Discontinued" width="120">
+        <ng-template kendoGridCellTemplate let-dataItem>
+            <input type="checkbox" [checked]="dataItem.Discontinued" disabled/>
+        </ng-template>
+    </kendo-grid-column>
+</kendo-grid>
+</div>
+
+
 <div class="content" role="main">
 
   <!-- Highlight Card -->

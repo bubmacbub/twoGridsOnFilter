@@ -12,7 +12,7 @@ export const sampleProducts = [
         "Discontinued": false,
         "Category": {
             "CategoryID": 1,
-            "CategoryName": "Beverages",
+            "CategoryName": "Systems Administrator I",
             "Description": "Soft drinks, coffees, teas, beers, and ales"
         },
         "FirstOrderedOn": new Date(1996, 8, 20)
@@ -30,7 +30,7 @@ export const sampleProducts = [
         "Discontinued": false,
         "Category": {
             "CategoryID": 1,
-            "CategoryName": "Beverages",
+            "CategoryName": "Systems Administrator I",
             "Description": "Soft drinks, coffees, teas, beers, and ales"
         },
         "FirstOrderedOn": new Date(1996, 7, 12)
@@ -48,7 +48,7 @@ export const sampleProducts = [
         "Discontinued": false,
         "Category": {
             "CategoryID": 2,
-            "CategoryName": "Condiments",
+            "CategoryName": "Analyst Programmer",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
         "FirstOrderedOn": new Date(1996, 8, 26)
@@ -66,7 +66,7 @@ export const sampleProducts = [
         "Discontinued": false,
         "Category": {
             "CategoryID": 2,
-            "CategoryName": "Condiments",
+            "CategoryName": "Analyst Programmer",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
         "FirstOrderedOn": new Date(1996, 9, 19)
@@ -84,7 +84,7 @@ export const sampleProducts = [
         "Discontinued": true,
         "Category": {
             "CategoryID": 2,
-            "CategoryName": "Condiments",
+            "CategoryName": "Analyst Programmer",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
         "FirstOrderedOn": new Date(1996, 7, 17)
@@ -102,7 +102,7 @@ export const sampleProducts = [
         "Discontinued": false,
         "Category": {
             "CategoryID": 2,
-            "CategoryName": "Condiments",
+            "CategoryName": "Analyst Programmer",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
         "FirstOrderedOn": new Date(1996, 9, 19)
@@ -138,7 +138,7 @@ export const sampleProducts = [
         "Discontinued": false,
         "Category": {
             "CategoryID": 2,
-            "CategoryName": "Condiments",
+            "CategoryName": "Analyst Programmer",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
         "FirstOrderedOn": new Date(1996, 11, 1)
@@ -194,7 +194,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 1,
-        "CategoryName": "Beverages",
+        "CategoryName": "Systems Administrator I",
         "Description": "Soft drinks, coffees, teas, beers, and ales"
     }
 }, {
@@ -210,7 +210,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 1,
-        "CategoryName": "Beverages",
+        "CategoryName": "Systems Administrator I",
         "Description": "Soft drinks, coffees, teas, beers, and ales"
     }
 }, {
@@ -226,7 +226,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 2,
-        "CategoryName": "Condiments",
+        "CategoryName": "Analyst Programmer",
         "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
     }
 }, {
@@ -242,7 +242,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 2,
-        "CategoryName": "Condiments",
+        "CategoryName": "Analyst Programmer",
         "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
     }
 }, {
@@ -258,7 +258,7 @@ export const products = [{
     "Discontinued": true,
     "Category": {
         "CategoryID": 2,
-        "CategoryName": "Condiments",
+        "CategoryName": "Analyst Programmer",
         "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
     }
 }, {
@@ -274,7 +274,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 2,
-        "CategoryName": "Condiments",
+        "CategoryName": "Analyst Programmer",
         "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
     }
 }, {
@@ -306,7 +306,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 2,
-        "CategoryName": "Condiments",
+        "CategoryName": "Analyst Programmer",
         "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
     }
 }, {
@@ -418,7 +418,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 2,
-        "CategoryName": "Condiments",
+        "CategoryName": "Analyst Programmer",
         "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
     }
 }, {
@@ -562,7 +562,7 @@ export const products = [{
     "Discontinued": true,
     "Category": {
         "CategoryID": 1,
-        "CategoryName": "Beverages",
+        "CategoryName": "Systems Administrator I",
         "Description": "Soft drinks, coffees, teas, beers, and ales"
     }
 }, {
@@ -722,7 +722,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 1,
-        "CategoryName": "Beverages",
+        "CategoryName": "Systems Administrator I",
         "Description": "Soft drinks, coffees, teas, beers, and ales"
     }
 }, {
@@ -738,7 +738,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 1,
-        "CategoryName": "Beverages",
+        "CategoryName": "Systems Administrator I",
         "Description": "Soft drinks, coffees, teas, beers, and ales"
     }
 }, {
@@ -786,7 +786,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 1,
-        "CategoryName": "Beverages",
+        "CategoryName": "Systems Administrator I",
         "Description": "Soft drinks, coffees, teas, beers, and ales"
     }
 }, {
@@ -802,7 +802,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 1,
-        "CategoryName": "Beverages",
+        "CategoryName": "Systems Administrator I",
         "Description": "Soft drinks, coffees, teas, beers, and ales"
     }
 }, {
@@ -866,7 +866,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 1,
-        "CategoryName": "Beverages",
+        "CategoryName": "Systems Administrator I",
         "Description": "Soft drinks, coffees, teas, beers, and ales"
     }
 }, {
@@ -882,7 +882,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 2,
-        "CategoryName": "Condiments",
+        "CategoryName": "Analyst Programmer",
         "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
     }
 }, {
@@ -1154,7 +1154,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 2,
-        "CategoryName": "Condiments",
+        "CategoryName": "Analyst Programmer",
         "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
     }
 }, {
@@ -1186,7 +1186,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 2,
-        "CategoryName": "Condiments",
+        "CategoryName": "Analyst Programmer",
         "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
     }
 }, {
@@ -1218,7 +1218,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 2,
-        "CategoryName": "Condiments",
+        "CategoryName": "Analyst Programmer",
         "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
     }
 }, {
@@ -1234,7 +1234,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 2,
-        "CategoryName": "Condiments",
+        "CategoryName": "Analyst Programmer",
         "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
     }
 }, {
@@ -1250,7 +1250,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 1,
-        "CategoryName": "Beverages",
+        "CategoryName": "Systems Administrator I",
         "Description": "Soft drinks, coffees, teas, beers, and ales"
     }
 }, {
@@ -1298,7 +1298,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 1,
-        "CategoryName": "Beverages",
+        "CategoryName": "Systems Administrator I",
         "Description": "Soft drinks, coffees, teas, beers, and ales"
     }
 }, {
@@ -1378,7 +1378,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 1,
-        "CategoryName": "Beverages",
+        "CategoryName": "Systems Administrator I",
         "Description": "Soft drinks, coffees, teas, beers, and ales"
     }
 }, {
@@ -1394,7 +1394,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 1,
-        "CategoryName": "Beverages",
+        "CategoryName": "Systems Administrator I",
         "Description": "Soft drinks, coffees, teas, beers, and ales"
     }
 }, {
@@ -1410,7 +1410,7 @@ export const products = [{
     "Discontinued": false,
     "Category": {
         "CategoryID": 2,
-        "CategoryName": "Condiments",
+        "CategoryName": "Analyst Programmer",
         "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
     }
 }];
