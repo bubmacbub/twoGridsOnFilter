@@ -15,6 +15,8 @@ import 'hammerjs';
 import { InputsModule } from '@progress/kendo-angular-inputs';
 
 import { RatingComponent } from './rating.component';
+import { GridOneComponent } from './grid-one/grid-one.component';
+import { GridTwoComponent } from './grid-two/grid-two.component';
 // import { PDFExportModule } from '@progress/kendo-angular-pdf-export';
 
 
@@ -37,6 +39,6 @@ import { RatingComponent } from './rating.component';
   ],
   providers: [],
   bootstrap: [AppComponent],
-  declarations: [AppComponent, RatingComponent],
+  declarations: [AppComponent, RatingComponent, GridOneComponent, GridTwoComponent],
 })
 export class AppModule { }
